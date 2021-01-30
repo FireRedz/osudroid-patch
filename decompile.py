@@ -30,4 +30,4 @@ def build_apk(directory: str):
 
 if __name__ == '__main__':
     decompile_apk('droid.apk')
-    ip.patch('droid', "YOURDOMAINHERE.fuck") # must have http at the front
+    ip.patch('droid', "YOURDOMAINHERE.fuck")
